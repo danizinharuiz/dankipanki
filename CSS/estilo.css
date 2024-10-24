@@ -121,8 +121,8 @@ footer ul{
 	.slogan {
 		max-width: 150px;
 		text-align: center;
-		display: block;
 		margin-top: -15px;
+		position: relative;
 	}
 
 	#elegancia {
@@ -189,7 +189,7 @@ footer ul{
 	}
 
 	footer {
-		min-height: 600px;
+		margin-bottom: -50px;
 
 	
  }
