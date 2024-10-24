@@ -116,7 +116,7 @@ footer ul{
 // No media query since this is the default in Bootstrap*/
 @media (max-width: 575.98px) {
 	.slogan {
-		max-width: 250px;
+		max-width: 180px;
 		text-align: center;
 	}
 
@@ -133,18 +133,28 @@ footer ul{
 	}
 
 	.navbar-secondary .nav-pills .nav-link {
-        display: block;
+            display: block;
 	    color: #efcbea;
 	    font-weight: bold;
 	    background: #b3298d;
 	    font-family: "Garamond", serif;
-	    font-size: 1.2em;
+	    font-size: 0.8em;
+	    widht: 50px;
 
 }
 
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
+	header, html, body, footer { 
+		margin: 0px;
+		
+	}
+	
+	.logo {
+		margin-top: -10px; 
+	}
+	
 	.slogan {
 		max-width: 250px;
 		text-align: center;
