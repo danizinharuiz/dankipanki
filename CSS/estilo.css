@@ -19,6 +19,7 @@ html, body,  {
 	font-family: "Garamond", serif;
 	font-size: 1.2em;
 	margin-left: 2px;
+	display: block;
 	
 	
 }
@@ -30,6 +31,7 @@ html, body,  {
 	background: #efcbea;
 	font-family: "Garamond", serif;
 	font-size: 1em;
+	display: block;
 }
 
 .navbar-secondary .nav-pills .selecionado a{
@@ -37,6 +39,7 @@ html, body,  {
 	background: #efcbea;
 	font-family: "Garamond", serif;
 	font-size: 1em;
+	display: block;
 }
 
 
@@ -116,8 +119,9 @@ footer ul{
 // No media query since this is the default in Bootstrap*/
 @media (max-width: 575.98px) {
 	.slogan {
-		max-width: 180px;
+		max-width: 200px;
 		text-align: center;
+		display: block;
 	}
 
 	#elegancia {
@@ -146,15 +150,8 @@ footer ul{
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
-	header, html, body, footer { 
-		margin: 0px;
-		
-	}
 	
-	.logo {
-		margin-top: -10px; 
-	}
-	
+
 	.slogan {
 		max-width: 250px;
 		text-align: center;
@@ -176,9 +173,21 @@ footer ul{
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
+	
+	header, html, body, footer { 
+		width: 100%;
+	
+	}
+
+	.logo {
+		margin-top: -15px; 
+	}
+	
 	.slogan {
 		min-width: 300px;
 	}
+
+	
  }
 
 /*Large devices (desktops, 992px and up)*/
