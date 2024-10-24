@@ -119,9 +119,10 @@ footer ul{
 // No media query since this is the default in Bootstrap*/
 @media (max-width: 575.98px) {
 	.slogan {
-		max-width: 70%;
+		max-width: 150px;
 		text-align: center;
 		display: block;
+		margin-top: -15px;
 	}
 
 	#elegancia {
@@ -188,7 +189,7 @@ footer ul{
 	}
 
 	footer {
-		height: 100%;
+		min-height: 600px;
 
 	
  }
