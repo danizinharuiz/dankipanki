@@ -119,7 +119,7 @@ footer ul{
 // No media query since this is the default in Bootstrap*/
 @media (max-width: 575.98px) {
 	.slogan {
-		max-width: 150px;
+		max-width: 180px;
 		text-align: center;
 		margin-top: -15px;
 		position: relative;
@@ -143,8 +143,8 @@ footer ul{
 	    font-weight: bold;
 	    background: #b3298d;
 	    font-family: "Garamond", serif;
-	    font-size: 0.8em;
-	    width: 50px;
+	    font-size: 1.0em;
+	    
 
 }
 
@@ -189,7 +189,7 @@ footer ul{
 	}
 
 	footer {
-		margin-bottom: -50px;
+		padding-bottom: 0;
 
 	
  }
