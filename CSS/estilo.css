@@ -1,1 +1,190 @@
+/*----Barra de Navegação --*/
 
+header {
+	background: #b3298d;
+	padding: 15px 0px;
+	height: 180px;
+}
+
+.slogan {
+	text-align: center;
+}
+
+html, body,  {
+	height: 100%;
+}
+
+.navbar-secondary .nav-pills .nav-link {
+	color: #efcbea;
+	font-family: "Garamond", serif;
+	font-size: 1.2em;
+	margin-left: 2px;
+	
+	
+}
+
+
+
+.navbar-secondary .nav-pills .nav-link:hover {
+	color: #808080;
+	background: #efcbea;
+	font-family: "Garamond", serif;
+	font-size: 1em;
+}
+
+.navbar-secondary .nav-pills .selecionado a{
+	color: #808080;
+	background: #efcbea;
+	font-family: "Garamond", serif;
+	font-size: 1em;
+}
+
+
+ .nav-pills .navbar-toggler {
+ 	color: #b3298d;
+
+}
+
+
+
+
+
+
+/*--Capa Home --*/
+
+#artesanal, #elegancia, #sustentabilidade {
+        background: #efcbea;
+        color: #696969;
+	    font-size: 1.2em;
+	    font-family: "Garamond", serif;
+	    
+	    
+	}
+
+#artesanal {
+        padding-top: 20px;
+}
+
+#sustentabilidade {
+	    padding-bottom: 20px;
+}
+
+
+
+
+ /*--Rodapé--*/
+
+ footer {
+ 	background: #b3298d;
+ 	padding: 15px 0px;
+	height: 150px;
+}
+
+.menu-rodape li a {
+	color: #efcbea;
+	font-family: "Garamond", serif;
+	font-size: 1.2em;
+	display: block;
+
+}
+
+.menu-rodape li a:hover {
+	color: #b3298d;
+	background: #efcbea;
+	font-family: "Garamond", serif;
+	font-size: 1em;
+	text-decoration: none;
+	display: block;
+
+}
+ 
+footer ul{
+	list-style: none;
+}
+
+
+.btn-outline-rosa {
+	color: #efcbea;
+ }
+
+ .btn-outline-rosa:hover {
+ 	color: #696969;
+ }
+
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap*/
+@media (max-width: 575.98px) {
+	.slogan {
+		max-width: 250px;
+		text-align: center;
+	}
+
+	#elegancia {
+		padding: 30px 0;
+	}
+
+	#elegancia h3 p {
+		padding-top: 20px;
+	}
+
+	footer {
+		height: 400px;
+	}
+
+	.navbar-secondary .nav-pills .nav-link {
+        display: block;
+	    color: #efcbea;
+	    font-weight: bold;
+	    background: #b3298d;
+	    font-family: "Garamond", serif;
+	    font-size: 1.2em;
+
+}
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	.slogan {
+		max-width: 250px;
+		text-align: center;
+	}
+
+	#elegancia {
+		padding: 30px 0;
+	}
+
+
+	#elegancia h3 p {
+		padding-top: 20px;
+	} 
+
+
+
+	
+}	
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	.slogan {
+		min-width: 300px;
+	}
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	.slogan {
+		min-width: 350px;
+	}
+
+	.logo {
+		max-width: 200px;
+
+	}
+	
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	
+ }
